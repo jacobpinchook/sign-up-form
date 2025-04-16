@@ -20,14 +20,40 @@
 
 .title-container {
     text-align: center;
+    width: 30vw;
 }
 
 .title-container img {
-    width: auto;
     height: 100vh;
 }
 
 .form-container {
     flex-grow: 1;
     background-color: #f8fafc;
+}
+
+.banner {
+    font-family: Norse;
+    font-weight: bold;
+    font-style: normal;
+
+    position: absolute;
+    top: 20vh; 
+    width: 30vw;
+
+    background-color: rgba(0,0,0,.5);
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: Norse;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.banner img {
+    height: 10vh;
 }

@@ -22,6 +22,7 @@
     position: relative;
     text-align: center;
     width: 30vw;
+    overflow: hidden;
 }
 
 .title-container img {

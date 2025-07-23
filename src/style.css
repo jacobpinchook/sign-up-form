@@ -78,10 +78,14 @@
     
 }
 
-.row {
-    display: flex;
+.form-banner {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    width: 100%;
 }
 
-.field {
-    
+.row {
+    display: flex;
+    margin-bottom: 1em;
+    gap: 1rem;
 }

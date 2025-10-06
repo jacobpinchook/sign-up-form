@@ -28,8 +28,8 @@
                 <br>
             </div>
             <div class="form-banner">
-                Let's do this!
-                <form action="example.com/path" method="post">
+                <div class="form-title">Let's do this!</div>
+                <form action="example.com/path" method="post" id="signUpForm">
                     <div class="row">
                         <div class="field">
                           <label for="first_name">First name</label><br>
@@ -65,7 +65,7 @@
                 </form>
             </div>
             <div class="account">
-                <button class="create-account">Create Account</button>
+                <button type="submit" class="create-account" onclick="resetForm()">Create Account</button>
                 <br>
                 Already have an account? Log in
             </div>

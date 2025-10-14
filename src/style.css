@@ -107,9 +107,19 @@ html { box-sizing: border-box; }
     flex: 1;  
     display: flex;
     flex-direction: column;
+    max-width: 200px;
 }
 
 .account {
-    padding: 1.5rem 3rem;
+    margin: 2rem 3rem;
+}
+
+.account button {
     margin-bottom: 2em;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: .5rem;
+    background-color: #596d48;
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 7px -2px lightgray;
 }

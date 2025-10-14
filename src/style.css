@@ -123,3 +123,13 @@ html { box-sizing: border-box; }
     border-color: transparent;
     box-shadow: 0 4px 7px -2px lightgray;
 }
+
+.account button:hover {
+    cursor: pointer;
+    background-color: #6b875a;
+}
+
+.account button:active {
+    cursor: pointer;
+    background-color: #526140;
+}

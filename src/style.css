@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Norse';
-    src: url('Norse-Bold.woff2') format('woff2'),
-        url('Norse-Bold.woff') format('woff');
+    src: url('/assets/Norse-Bold.woff2') format('woff2'),
+        url('/assets/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -69,8 +69,8 @@ html { box-sizing: border-box; }
     font-family: Norse;
     font-weight: bold;
     font-style: normal;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+    font-size: 5rem;
+    padding-top: 25px;
 }
 
 .banner img {

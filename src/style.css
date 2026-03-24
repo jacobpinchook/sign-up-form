@@ -41,6 +41,7 @@ html { box-sizing: border-box; }
 }
 
 .form-container {
+    font-family: sans-serif;
     flex-grow: 1;
     background-color: #f8fafc;
 }

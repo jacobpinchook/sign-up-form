@@ -15,6 +15,11 @@ html { box-sizing: border-box; }
     padding: 0;
 }
 
+.error {
+    border: 1.5px solid red;
+    border-radius: .15rem;
+}
+
 .container {
     display: flex;
     flex-direction: row;
